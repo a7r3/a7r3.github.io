@@ -14,6 +14,8 @@ html {
     justify-content: center;
     align-items: center;
     align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -28,8 +30,61 @@ html {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
 }
 
-.container {
-    padding: 32px 32px;
+.main-container {
+    padding: 24px 24px;
     align-content: center;
     text-align: center;
+}
+
+.social-container-parent {
+    display: flex;
+    flex-direction: row;
+    margin: 8px;
+}
+
+.social-container {
+    padding: 24px;
+}
+
+.github {
+    color: #000;
+    background-color: #fff;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.linkedin {
+    color: #0077b5;
+    background-color: #fff;
+}
+
+.telegram {
+    color: #0088CC;
+    background-color: #fff;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.github:hover {
+    background-color: #000;
+}
+
+.linkedin:hover {
+    background-color: #0077b5;
+}
+
+.telegram:hover {
+    background-color: #0088cc;
+}
+
+.telegram:hover, .linkedin:hover, .github:hover {
+    color: #fff;
+    transition: color 0.5s ease-in;
+    transition: background-color 0.5s ease-out;
+    cursor: hand;
+    cursor: pointer;
+}
+
+.fab {
+    transform: scale(2, 2);
 }
