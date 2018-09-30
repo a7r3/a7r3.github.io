@@ -18,7 +18,7 @@ html {
     justify-content: center;
     align-items: center;
     align-content: center;
-    max-width: 35%;
+    width: 35%;
     flex-flow: column wrap;
 }
 
@@ -105,4 +105,57 @@ html {
 
 .fab {
     transform: scale(2, 2);
+}
+
+.tab {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2px;
+    margin-right: 2px;
+    flex-wrap: wrap;
+}
+
+.tab-item, .tab button {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    flex: 1;
+    transition: 0.3s;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 4px;
+    padding: 16px 16px;
+    margin: 4px 2px 4px 2px;
+    color: #000;
+}
+
+.tab button:hover {
+    background-color: #9e9e9e;
+    cursor: hand;
+    cursor: pointer;
+}
+
+.tab button.active, .tab-item.active {
+    background-color: #4776e6;
+    color: #fff;
+}
+
+.tab-container {
+    display: none;
+    padding: 16px 16px;
+    align-content: center;
+    text-align: center;
+}
+
+/* w3s ftw */
+.tab-container {
+    animation: fadeEffect 0.5s;
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }

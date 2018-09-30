@@ -28,11 +28,25 @@
                 </div>
             </div>
             <div class="card">
-                <div class="main-container">
+                <div class="tab">
+                    <button class="tab-item" onclick="navigateItem(event, 'About')" id="defaultOpen">About</button>
+                    <button class="tab-item" onclick="navigateItem(event, 'Skills')">Skills</button>
+                    <button class="tab-item" onclick="navigateItem(event, 'Projects')">Projects</button>
+                </div>
+                <div class="tab-container" id="About">
                     <p>Thinking on problems, deriving a solution for it, and making it easily accessible by an user is the thing that drives me all the way along as a Technical Enthusiast.</p>
                     <p>This might seem complete to you, but it's not! Stay tuned for updates!</p>
-                    <p>#n00blife #WiP</p>
+                    <p>#n00blife #WorkInProgress</p>
                 </div>
+                <div class="tab-container" id="Skills">
+                    <p>Android Application Development, Shell Scripting, Web Development, GNU/Linux, Java, Python, C, Git</p>
+                    <p>Coming soon</p>
+                    <p>#n00blife #WorkInProgress</p>
+                </div>
+                <div class="tab-container" id="Projects">
+                    <p>Coming Soon</p>
+                    <p>#n00blife #WorkInProgress</p>
+                </div>    
             </div>    
         </div>
         <script src="static/js/main.js" type="text/javascript"></script>
