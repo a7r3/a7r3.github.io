@@ -4,8 +4,8 @@ body {
     justify-content: center;
     min-height: 100%;
     width: 100%;
-    background: #4776e6;
-    background: linear-gradient(to right, #4776e6, #8e54e9);
+    background: #cc2b5e;
+    background: linear-gradient(to right, #cc2b5e, #753a88);
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -139,7 +139,7 @@ html {
 }
 
 .tab button.active, .tab-item.active {
-    background-color: #4776e6;
+    background-color: #cc2b5e;
     color: #fff;
 }
 
