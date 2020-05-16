@@ -13,7 +13,7 @@ body {
 
 /* Card CSS Style */
 .card {
-    background-color: rgba(256, 256, 256, 0.7);
+    background-color: rgba(256, 256, 256, 0.5);
     color: black;
     box-shadow: 0 4px 8px 0 rgba(116, 114, 114, 0.2);
     transition: 0.3s;
@@ -23,8 +23,8 @@ body {
 
 /* Card Hover Attrs */
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
-    background-color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+    background-color: rgba(256, 256, 256, 0.7);
 }
 
 .text-container {
@@ -59,7 +59,7 @@ body {
 }
 
 .profile-picture:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
 }
 
 /* Social Card */
@@ -139,7 +139,7 @@ body {
 .whatsup-list-template {
     display: flex;
     min-height: 60px;
-    background-color: argb(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
     padding: 10px;
     flex-direction: row;
     cursor: pointer;
@@ -148,7 +148,7 @@ body {
 }
 
 .whatsup-list-template:hover {
-    background-color: lightgrey;
+    background-color: rgba(0, 0, 0, 0.2);
     transition: all 500ms ease;
     transition-property: background-color;
 }
