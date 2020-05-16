@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Google Certified Associate Android Developer: Check!",
+        "image": "../../assocbadge.png",
+        "description": "And this is just the start!",
+        "link": "https://www.credential.net/550893c8-ddc7-4d03-9058-95e62dc60edc"
+    },
+    {
+        "title": "Portal & Companion",
+        "image": "https://lh3.googleusercontent.com/wiPKIGK49pgf0HqZ-s9QDoMvET41K4Kne2gMFCgteLLn4YtSot8uuTff97dSD3WGnDE=s180-rw",
+        "description": "Our college's official online web & app platform. And the biggest project I've worked on!",
+        "link": "https://play.google.com/store/apps/details?id=in.edu.siesgst.companion"
+    },
+    {
+        "title": "Projekt ScriBt",
+        "image": "https://github.com/ScriBt/images/raw/master/ScriBtLogo.png",
+        "description": "First personal project, which helps aspiring developers to build an Android Custom ROM from Source",
+        "link": "https://scribt.github.io"
+    }
+]
