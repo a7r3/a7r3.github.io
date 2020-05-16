@@ -102,16 +102,19 @@ body {
 
 /* Social Icon: GitHub - Hover BG Color */
 .github:hover {
+    color: #fff;
     background-color: #000;
 }
 
 /* Social Icon: LinkedIn - Hover BG Color */
 .linkedin:hover {
+    color: #fff;
     background-color: #0077b5;
 }
 
 /* Social Icon: Telegram - Hover BG Color */
 .telegram:hover {
+    color: #fff;
     background-color: #0088cc;
 }
 
@@ -120,7 +123,6 @@ body {
     color: #fff;
     transition: all 500ms ease;
     transition-property: color, background-color;
-    cursor: pointer;
 }
 
 /* Scale-up the FontAwesome Icons twice the size */
