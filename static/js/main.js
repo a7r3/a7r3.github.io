@@ -17,12 +17,14 @@ var listItemString = $('#whatsupItem').html();
 var index = 0;
 
 function loadWhatsupContent(whatsup) {
-    var listItem = $('<li id=\'' + index + '\' class=\'whatsup-list-template\'>' + listItemString + '</li>');
-    $('.whatsup-title', listItem).html(whatsup.title);
-    $('.whatsup-description', listItem).html(whatsup.description);
-    $('#whatsupImage', listItem).attr('src', whatsup.image);
-    console.log(listItem.html)
-    $('#whatsupList').append(listItem);
+    let listItem = '<li id="' + index + '" class="whatsup-list-template">';
+    listItem += '<img class="whatsup-image" id="whatsupImage" src=\"' + whatsup.image + '\">';
+    listItem += '<div style="flex-direction: column;">';
+    listItem += '<div class="whatsup-title">' + whatsup.title + '</div>';
+    listItem += '<div class="whatsup-description">' + whatsup.description + '</div>';
+    listItem += '</div>';
+
+    document.getElementById('whatsupList').innerHTML += listItem;
     index++;
 }
 
