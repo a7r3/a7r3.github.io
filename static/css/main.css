@@ -7,8 +7,16 @@ body {
     height: 100%;
     background: #cc2b5e;
     margin: 0;
-    background: linear-gradient(to right, #bc4e9c, #f80759);
+    background: linear-gradient(to right, #bc4e9c, #f80759, #f80759, #bc4e9c);
+    background-size: 400% 400%;
     font-family: 'Roboto Condensed', sans-serif;
+    animation: body-animation 15s ease infinite;
+}
+
+@keyframes body-animation {
+    0% { background-position: 0% 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0% 50% }
 }
 
 /* Card CSS Style */
