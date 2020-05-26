@@ -7,10 +7,10 @@ body {
     height: 100%;
     background: #cc2b5e;
     margin: 0;
-    background: linear-gradient(to right, #bc4e9c, #f80759, #f80759, #bc4e9c);
-    background-size: 400% 400%;
+    background: linear-gradient(45deg, #d32f2f, #f57c00, #fbc02d, #388e3c, #1976d2, #303f9f, #311b92, #031527);
+    background-size: 900% 900%;
     font-family: 'Roboto Condensed', sans-serif;
-    animation: body-animation 15s ease infinite;
+    animation: body-animation 30s ease reverse infinite;
 }
 
 @keyframes body-animation {
